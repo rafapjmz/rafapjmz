@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portfolio de Rafael Pérez Jiménez, estudiante de Desarrollo de Aplicaciones Web en Málaga. Frontend, diseño e inteligencia artificial.">
+  <meta name="theme-color" content="#0f172a">
+  <title>Rafael Pérez Jiménez | Portfolio</title>
+  <link rel="icon" href="https://avatars.githubusercontent.com/u/233956732?v=4&s=64">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navegación principal">
+      <a class="brand" href="#inicio">RP<span>.</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu" aria-label="Abrir menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-list" id="menu">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tecnologias">Tecnologías</a></li>
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Málaga, España · Disponible para prácticas</p>
+          <h1>Hola, soy <strong>Rafael Pérez Jiménez</strong></h1>
+          <p class="lead">Estudiante de <strong>Desarrollo de Aplicaciones Web</strong> con base en diseño industrial. Construyo interfaces cuidadas y quiero especializarme en frontend, diseño e inteligencia artificial.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
+            <a class="btn btn-ghost" href="mailto:rafapj.01@gmail.com">Contactarme</a>
+          </div>
+        </div>
+        <div class="hero-avatar">
+          <img src="https://avatars.githubusercontent.com/u/233956732?v=4&amp;s=400" width="280" height="280" alt="Foto de perfil de Rafael Pérez Jiménez">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="sobre-mi">
+      <div class="container">
+        <h2>Sobre mí</h2>
+        <div class="two-cols">
+          <div>
+            <p>Curso el Grado Superior en Desarrollo de Aplicaciones Web en Davante Medac (Málaga) y tengo un grado en Ingeniería de diseño industrial y desarrollo del producto por la Universidad de Málaga. Esa combinación me hace mirar tanto la función como la forma de lo que programo.</p>
+            <p>Soy organizado, sosegado bajo presión y me gusta optimizar el trabajo para hacerlo bien en el menor tiempo posible. He trabajado en atención al cliente, hostelería y fotografía de eventos: situaciones que enseñan a escuchar y a resolver rápido.</p>
+          </div>
+          <aside class="info-card" aria-label="Datos relevantes">
+            <h3>Formación</h3>
+            <ul>
+              <li><strong>DAW</strong> · Davante Medac, Málaga (2025 – presente)</li>
+              <li><strong>Ingeniería de diseño industrial y desarrollo del producto</strong> · Universidad de Málaga (2020 – presente)</li>
+              <li>Inglés B2 (Cambridge) · Francés B1</li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="tecnologias">
+      <div class="container">
+        <h2>Tecnologías</h2>
+        <p class="section-intro">Lo que uso y puedo defender hoy, agrupado por áreas.</p>
+        <div class="tech-grid">
+          <article class="tech-card">
+            <h3>Frontend</h3>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+          </article>
+          <article class="tech-card">
+            <h3>Backend</h3>
+            <div class="tags"><span class="tag">PHP</span><span class="tag">Java</span><span class="tag">C</span></div>
+          </article>
+          <article class="tech-card">
+            <h3>Herramientas</h3>
+            <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">Adobe Illustrator</span><span class="tag">Microsoft 365</span></div>
+          </article>
+        </div>
+        <div class="learning">
+          <h3>En aprendizaje · nivel básico</h3>
+          <div class="tags"><span class="tag tag-learning">React</span><span class="tag tag-learning">Angular</span><span class="tag tag-learning">Laravel</span><span class="tag tag-learning">TypeScript</span></div>
+          <p>Los estoy incorporando este curso para poder defenderlos cuando entre en una empresa.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="proyectos">
+      <div class="container">
+        <h2>Proyectos</h2>
+        <div class="cards">
+          <article class="card">
+            <span class="card-kicker">Portfolio</span>
+            <h3>Portfolio personal</h3>
+            <p>Esta misma web: una página responsive con presentación, tecnologías, proyectos y contacto, publicada con GitHub Pages.</p>
+            <div class="card-links">
+              <a href="https://github.com/rafapjmz/rafapjmz" target="_blank" rel="noopener noreferrer">Código</a>
+              <a href="https://rafapjmz.github.io/rafapjmz/" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="card-kicker">DAW · DWCLE</span>
+            <h3>Plantilla de desarrollo web</h3>
+            <p>Esqueleto de trabajo con TypeScript, Vite, ESLint, Prettier y Vitest usado en el módulo de Desarrollo Web en Entorno Cliente.</p>
+            <div class="card-links">
+              <a href="https://github.com/rafapjmz/DWCLE-Perez-Rafael/tree/main/template" target="_blank" rel="noopener noreferrer">Repositorio</a>
+            </div>
+          </article>
+          <article class="card">
+            <span class="card-kicker">JavaScript</span>
+            <h3>Prácticas de JavaScript</h3>
+            <p>Ejercicios de control de flujo, arrays y programación funcional realizados en el módulo de DWCLE.</p>
+            <div class="card-links">
+              <a href="https://github.com/rafapjmz/DWCLE-Perez-Rafael/tree/main/02-JavaScript" target="_blank" rel="noopener noreferrer">Repositorio</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contacto">
+      <div class="container contact">
+        <div>
+          <h2>Contacto</h2>
+          <p class="section-intro">Si buscas alguien con ganas de aprender y trabajar en equipo, escríbeme.</p>
+        </div>
+        <div class="contact-links">
+          <a class="contact-item" href="mailto:rafapj.01@gmail.com">
+            <span class="contact-label">Email</span>
+            <strong>rafapj.01@gmail.com</strong>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/rafaei-alberto-p%C3%A9rez-jim%C3%A9nez-354017199/" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">LinkedIn</span>
+            <strong>Rafael Pérez Jiménez</strong>
+          </a>
+          <a class="contact-item" href="https://github.com/rafapjmz" target="_blank" rel="noopener noreferrer">
+            <span class="contact-label">GitHub</span>
+            <strong>@rafapjmz</strong>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year">2026</span> Rafael Pérez Jiménez · Málaga, España</p>
+      <a href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
