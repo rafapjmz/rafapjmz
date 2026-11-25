@@ -11,6 +11,7 @@
 </head>
 <body>
   <a class="skip-link" href="#contenido">Saltar al contenido</a>
+  <div class="scroll-progress" id="progreso" aria-hidden="true"></div>
 
   <header class="site-header">
     <nav class="nav container" aria-label="Navegación principal">
@@ -29,21 +30,30 @@
 
   <main id="contenido">
     <section class="hero" id="inicio">
+      <div class="hero-orbs" aria-hidden="true"><span></span><span></span></div>
+      <div class="hero-glow" aria-hidden="true"></div>
       <div class="container hero-grid">
         <div class="hero-copy">
           <p class="eyebrow">Málaga, España · Disponible para prácticas</p>
           <h1>Hola, soy <strong>Rafael Pérez Jiménez</strong></h1>
-          <p class="lead">Estudiante de <strong>Desarrollo de Aplicaciones Web</strong> con base en diseño industrial. Construyo interfaces cuidadas y quiero especializarme en frontend, diseño e inteligencia artificial.</p>
+          <p class="lead">Estudiante de <strong>Desarrollo de Aplicaciones Web</strong> con base en diseño industrial. Construyo interfaces cuidadas y quiero especializarme en <span class="word-rotate" id="palabra">frontend</span>.</p>
           <div class="actions">
             <a class="btn btn-primary" href="#proyectos">Ver proyectos</a>
             <a class="btn btn-ghost" href="mailto:rafapj.01@gmail.com">Contactarme</a>
           </div>
         </div>
         <div class="hero-avatar">
-          <img src="https://avatars.githubusercontent.com/u/233956732?v=4&amp;s=400" width="280" height="280" alt="Foto de perfil de Rafael Pérez Jiménez">
+          <img src="assets/perfil-linkedin.jpg" width="280" height="280" alt="Foto de perfil de Rafael Pérez Jiménez">
         </div>
       </div>
     </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track">
+        <span>HTML5 ✦ CSS3 ✦ JavaScript ✦ TypeScript ✦ PHP ✦ Java ✦ C ✦ Git ✦ React ✦ Angular ✦ Laravel ✦ &nbsp;</span>
+        <span>HTML5 ✦ CSS3 ✦ JavaScript ✦ TypeScript ✦ PHP ✦ Java ✦ C ✦ Git ✦ React ✦ Angular ✦ Laravel ✦ &nbsp;</span>
+      </div>
+    </div>
 
     <section class="section" id="sobre-mi">
       <div class="container">
@@ -72,7 +82,7 @@
         <div class="tech-grid">
           <article class="tech-card">
             <h3>Frontend</h3>
-            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div>
+            <div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">TypeScript</span></div>
           </article>
           <article class="tech-card">
             <h3>Backend</h3>
@@ -85,7 +95,7 @@
         </div>
         <div class="learning">
           <h3>En aprendizaje · nivel básico</h3>
-          <div class="tags"><span class="tag tag-learning">React</span><span class="tag tag-learning">Angular</span><span class="tag tag-learning">Laravel</span><span class="tag tag-learning">TypeScript</span></div>
+          <div class="tags"><span class="tag tag-learning">React</span><span class="tag tag-learning">Angular</span><span class="tag tag-learning">Laravel</span></div>
           <p>Los estoy incorporando este curso para poder defenderlos cuando entre en una empresa.</p>
         </div>
       </div>
@@ -95,6 +105,15 @@
       <div class="container">
         <h2>Proyectos</h2>
         <div class="cards">
+          <article class="card">
+            <span class="card-kicker">Proyecto personal · JavaScript</span>
+            <h3>Ruleta de retos DWCLE</h3>
+            <p>Generador aleatorio de retos de programación con filtros por tecnología y dificultad, pistas y una lista guardada en el navegador. Hecho con <code>map</code>, <code>filter</code> y <code>reduce</code>.</p>
+            <div class="card-links">
+              <a href="https://github.com/rafapjmz/reto-aleatorio-daw" target="_blank" rel="noopener noreferrer">Código</a>
+              <a href="https://rafapjmz.github.io/reto-aleatorio-daw/" target="_blank" rel="noopener noreferrer">Demo</a>
+            </div>
+          </article>
           <article class="card">
             <span class="card-kicker">Portfolio</span>
             <h3>Portfolio personal</h3>
@@ -153,6 +172,7 @@
       <p>© <span id="year">2026</span> Rafael Pérez Jiménez · Málaga, España</p>
       <a href="#inicio">Volver arriba ↑</a>
     </div>
+    <div class="container"><p class="ai-note">Con un poco de ayuda de IA.</p></div>
   </footer>
 
   <script src="script.js"></script>

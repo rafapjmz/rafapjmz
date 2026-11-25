@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" role="img" aria-label="rafapjmz - Rafael Pérez Jiménez">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f172a"/>
+      <stop offset="0.55" stop-color="#1e3a8a"/>
+      <stop offset="1" stop-color="#0ea5e9"/>
+    </linearGradient>
+    <linearGradient id="brillo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#93c5fd"/>
+    </linearGradient>
+    <pattern id="rejilla" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffffff" stroke-width="1" opacity="0.35"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="260" fill="url(#fondo)"/>
+  <rect width="1200" height="260" fill="url(#rejilla)" opacity="0.10"/>
+  <circle cx="1080" cy="20" r="190" fill="#38bdf8" opacity="0.10"/>
+  <circle cx="960" cy="250" r="110" fill="#a78bfa" opacity="0.10"/>
+  <text x="70" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="76" font-weight="700" letter-spacing="7" fill="url(#brillo)">rafapjmz</text>
+  <text x="75" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" fill="#cbd5e1">Rafael Pérez Jiménez · Desarrollo de aplicaciones web · Málaga</text>
+  <rect x="75" y="205" width="130" height="5" rx="2.5" fill="#38bdf8"/>
+  <circle cx="1130" cy="130" r="9" fill="#38bdf8" opacity="0.9"/>
+  <circle cx="1158" cy="130" r="9" fill="#a78bfa" opacity="0.7"/>
+  <circle cx="1186" cy="130" r="9" fill="#ffffff" opacity="0.4"/>
+</svg>
