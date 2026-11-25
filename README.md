@@ -2,6 +2,12 @@
   <img src="https://raw.githubusercontent.com/rafapjmz/rafapjmz/main/assets/banner.svg" alt="rafapjmz — Rafael Pérez Jiménez" width="100%">
 </div>
 
+<div align="center">
+  <a href="https://rafapjmz.github.io/rafapjmz/">
+    <img src="https://raw.githubusercontent.com/rafapjmz/rafapjmz/main/assets/boton-web.svg" alt="Ver mi portfolio web en rafapjmz.github.io/rafapjmz" width="460">
+  </a>
+</div>
+
 # Rafael Pérez Jiménez
 
 <img src="https://avatars.githubusercontent.com/u/233956732?v=4&s=200" width="160" align="right" alt="Foto de Rafael Pérez Jiménez" />
